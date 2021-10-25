@@ -1,6 +1,11 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 #include <iostream>
+#include <vector>
+using std::string;
+using std::vector;
+using std::cout;
+using std::cin;
 using namespace std::string_view_literals;
 
 namespace constants
@@ -8,6 +13,8 @@ namespace constants
 
 	constexpr int b_h{ 6 };		// board height
 	constexpr int b_w{ 7 };		// board width
+
+	constexpr char empty_chess{ '_' };	// char for positions that is still empty on the borad
 
 	// constant for displaying the board
 
